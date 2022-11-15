@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61223AD7290FC666003B91EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61223AD6290FC666003B91EC /* AppDelegate.swift */; };
+		61223AD9290FC666003B91EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61223AD8290FC666003B91EC /* SceneDelegate.swift */; };
+		61223ADB290FC666003B91EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61223ADA290FC666003B91EC /* ViewController.swift */; };
+		61223ADE290FC666003B91EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61223ADC290FC666003B91EC /* Main.storyboard */; };
+		61223AE0290FC668003B91EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61223ADF290FC668003B91EC /* Assets.xcassets */; };
+		61223AE3290FC668003B91EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61223AE1290FC668003B91EC /* LaunchScreen.storyboard */; };
+		61223AEE290FC668003B91EC /* ILDSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61223AED290FC668003B91EC /* ILDSExampleTests.swift */; };
+		61223AF8290FC668003B91EC /* ILDSExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61223AF7290FC668003B91EC /* ILDSExampleUITests.swift */; };
+		61223AFA290FC668003B91EC /* ILDSExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61223AF9290FC668003B91EC /* ILDSExampleUITestsLaunchTests.swift */; };
+		61223B08290FC67D003B91EC /* ArcGIS in Frameworks */ = {isa = PBXBuildFile; productRef = 61223B07290FC67D003B91EC /* ArcGIS */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61223AEA290FC668003B91EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61223ACB290FC666003B91EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61223AD2290FC666003B91EC;
+			remoteInfo = ILDSExample;
+		};
+		61223AF4290FC668003B91EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61223ACB290FC666003B91EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61223AD2290FC666003B91EC;
+			remoteInfo = ILDSExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61223AD3290FC666003B91EC /* ILDSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILDSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61223AD6290FC666003B91EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61223AD8290FC666003B91EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61223ADA290FC666003B91EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61223ADD290FC666003B91EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61223ADF290FC668003B91EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61223AE2290FC668003B91EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61223AE4290FC668003B91EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61223AE9290FC668003B91EC /* ILDSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILDSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61223AED290FC668003B91EC /* ILDSExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILDSExampleTests.swift; sourceTree = "<group>"; };
+		61223AF3290FC668003B91EC /* ILDSExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILDSExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61223AF7290FC668003B91EC /* ILDSExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILDSExampleUITests.swift; sourceTree = "<group>"; };
+		61223AF9290FC668003B91EC /* ILDSExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILDSExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61223AD0290FC666003B91EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61223B08290FC67D003B91EC /* ArcGIS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61223AE6290FC668003B91EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61223AF0290FC668003B91EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61223ACA290FC666003B91EC = {
+			isa = PBXGroup;
+			children = (
+				61223AD5290FC666003B91EC /* ILDSExample */,
+				61223AEC290FC668003B91EC /* ILDSExampleTests */,
+				61223AF6290FC668003B91EC /* ILDSExampleUITests */,
+				61223AD4290FC666003B91EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61223AD4290FC666003B91EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61223AD3290FC666003B91EC /* ILDSExample.app */,
+				61223AE9290FC668003B91EC /* ILDSExampleTests.xctest */,
+				61223AF3290FC668003B91EC /* ILDSExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61223AD5290FC666003B91EC /* ILDSExample */ = {
+			isa = PBXGroup;
+			children = (
+				61223AD6290FC666003B91EC /* AppDelegate.swift */,
+				61223AD8290FC666003B91EC /* SceneDelegate.swift */,
+				61223ADA290FC666003B91EC /* ViewController.swift */,
+				61223ADC290FC666003B91EC /* Main.storyboard */,
+				61223ADF290FC668003B91EC /* Assets.xcassets */,
+				61223AE1290FC668003B91EC /* LaunchScreen.storyboard */,
+				61223AE4290FC668003B91EC /* Info.plist */,
+			);
+			path = ILDSExample;
+			sourceTree = "<group>";
+		};
+		61223AEC290FC668003B91EC /* ILDSExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				61223AED290FC668003B91EC /* ILDSExampleTests.swift */,
+			);
+			path = ILDSExampleTests;
+			sourceTree = "<group>";
+		};
+		61223AF6290FC668003B91EC /* ILDSExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61223AF7290FC668003B91EC /* ILDSExampleUITests.swift */,
+				61223AF9290FC668003B91EC /* ILDSExampleUITestsLaunchTests.swift */,
+			);
+			path = ILDSExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61223AD2290FC666003B91EC /* ILDSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61223AFD290FC668003B91EC /* Build configuration list for PBXNativeTarget "ILDSExample" */;
+			buildPhases = (
+				61223ACF290FC666003B91EC /* Sources */,
+				61223AD0290FC666003B91EC /* Frameworks */,
+				61223AD1290FC666003B91EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILDSExample;
+			packageProductDependencies = (
+				61223B07290FC67D003B91EC /* ArcGIS */,
+			);
+			productName = ILDSExample;
+			productReference = 61223AD3290FC666003B91EC /* ILDSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61223AE8290FC668003B91EC /* ILDSExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61223B00290FC668003B91EC /* Build configuration list for PBXNativeTarget "ILDSExampleTests" */;
+			buildPhases = (
+				61223AE5290FC668003B91EC /* Sources */,
+				61223AE6290FC668003B91EC /* Frameworks */,
+				61223AE7290FC668003B91EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61223AEB290FC668003B91EC /* PBXTargetDependency */,
+			);
+			name = ILDSExampleTests;
+			productName = ILDSExampleTests;
+			productReference = 61223AE9290FC668003B91EC /* ILDSExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61223AF2290FC668003B91EC /* ILDSExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61223B03290FC668003B91EC /* Build configuration list for PBXNativeTarget "ILDSExampleUITests" */;
+			buildPhases = (
+				61223AEF290FC668003B91EC /* Sources */,
+				61223AF0290FC668003B91EC /* Frameworks */,
+				61223AF1290FC668003B91EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61223AF5290FC668003B91EC /* PBXTargetDependency */,
+			);
+			name = ILDSExampleUITests;
+			productName = ILDSExampleUITests;
+			productReference = 61223AF3290FC668003B91EC /* ILDSExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61223ACB290FC666003B91EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					61223AD2290FC666003B91EC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					61223AE8290FC668003B91EC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 61223AD2290FC666003B91EC;
+					};
+					61223AF2290FC668003B91EC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 61223AD2290FC666003B91EC;
+					};
+				};
+			};
+			buildConfigurationList = 61223ACE290FC666003B91EC /* Build configuration list for PBXProject "ILDSExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61223ACA290FC666003B91EC;
+			packageReferences = (
+				61223B06290FC67D003B91EC /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */,
+			);
+			productRefGroup = 61223AD4290FC666003B91EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61223AD2290FC666003B91EC /* ILDSExample */,
+				61223AE8290FC668003B91EC /* ILDSExampleTests */,
+				61223AF2290FC668003B91EC /* ILDSExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61223AD1290FC666003B91EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61223AE3290FC668003B91EC /* LaunchScreen.storyboard in Resources */,
+				61223AE0290FC668003B91EC /* Assets.xcassets in Resources */,
+				61223ADE290FC666003B91EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61223AE7290FC668003B91EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61223AF1290FC668003B91EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61223ACF290FC666003B91EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61223ADB290FC666003B91EC /* ViewController.swift in Sources */,
+				61223AD7290FC666003B91EC /* AppDelegate.swift in Sources */,
+				61223AD9290FC666003B91EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61223AE5290FC668003B91EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61223AEE290FC668003B91EC /* ILDSExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61223AEF290FC668003B91EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61223AF8290FC668003B91EC /* ILDSExampleUITests.swift in Sources */,
+				61223AFA290FC668003B91EC /* ILDSExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61223AEB290FC668003B91EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61223AD2290FC666003B91EC /* ILDSExample */;
+			targetProxy = 61223AEA290FC668003B91EC /* PBXContainerItemProxy */;
+		};
+		61223AF5290FC668003B91EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61223AD2290FC666003B91EC /* ILDSExample */;
+			targetProxy = 61223AF4290FC668003B91EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61223ADC290FC666003B91EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61223ADD290FC666003B91EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61223AE1290FC668003B91EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61223AE2290FC668003B91EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61223AFB290FC668003B91EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61223AFC290FC668003B91EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61223AFE290FC668003B91EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75Z67E6SV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ILDSExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ILDS Example";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "The app needs bluetooth to scan for iBeacons";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app need location permission to show your location on a map";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.ildssample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61223AFF290FC668003B91EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75Z67E6SV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ILDSExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ILDS Example";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "The app needs bluetooth to scan for iBeacons";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app need location permission to show your location on a map";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.ildssample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61223B01290FC668003B91EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75Z67E6SV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.ILDSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILDSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ILDSExample";
+			};
+			name = Debug;
+		};
+		61223B02290FC668003B91EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75Z67E6SV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.ILDSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILDSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ILDSExample";
+			};
+			name = Release;
+		};
+		61223B04290FC668003B91EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75Z67E6SV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.ILDSExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ILDSExample;
+			};
+			name = Debug;
+		};
+		61223B05290FC668003B91EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75Z67E6SV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.ILDSExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ILDSExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61223ACE290FC666003B91EC /* Build configuration list for PBXProject "ILDSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61223AFB290FC668003B91EC /* Debug */,
+				61223AFC290FC668003B91EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61223AFD290FC668003B91EC /* Build configuration list for PBXNativeTarget "ILDSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61223AFE290FC668003B91EC /* Debug */,
+				61223AFF290FC668003B91EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61223B00290FC668003B91EC /* Build configuration list for PBXNativeTarget "ILDSExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61223B01290FC668003B91EC /* Debug */,
+				61223B02290FC668003B91EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61223B03290FC668003B91EC /* Build configuration list for PBXNativeTarget "ILDSExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61223B04290FC668003B91EC /* Debug */,
+				61223B05290FC668003B91EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61223B06290FC67D003B91EC /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/esri/arcgis-runtime-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61223B07290FC67D003B91EC /* ArcGIS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61223B06290FC67D003B91EC /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */;
+			productName = ArcGIS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 61223ACB290FC666003B91EC /* Project object */;
+}
